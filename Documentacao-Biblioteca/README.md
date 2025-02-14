@@ -1,138 +1,152 @@
-# Charger
-
-![Image](https://github.com/user-attachments/assets/1287f52b-9493-44b3-8329-fef4f58f101f)
+# Sistema de Gerenciamento de Biblioteca
 
 ## Índice
-
-- [Quem Somos?](#quem-somos)
-- [Objetivo](#objetivo)
-- [Funcionalidades](#funcionalidades)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Recursos](#recursos)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Funciona?](#como-funciona)
-- [Instalação e Configuração](#instalação-e-configuração)
-- [Contribuição](#contribuição)
-- [Contato](#contato)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Pré-requisitos](#pré-requisitos)
+- [Passo a Passo](#como-executar)
+- [Documentação da API](#documentação-da-api)
+- [Contribuindo](#contribuindo)
 - [Licença](#licença)
+- [Contato](#contato)
 
 ---
 
-## Quem Somos?
-Empresa focada na tecnologia de gestão de carregamento de carros movidos à energia elétrica.
-
-## Objetivo
-Nosso objetivo é contribuir com a diminuição de emissão de carbono e se tornar uma grande referência mundial no ramo de gerenciamento de carregamento de carros elétricos.
-
-### Plataforma Inteligente para Gestão de Carregamento de Veículos Elétricos
-A **ChargerLink** é um sistema inovador para monitoramento, otimização e gestão de carregamento de veículos elétricos, garantindo eficiência energética e redução de custos. Charger, carregando o futuro, acelerando a mobilidade.
+## Sobre o Projeto
+O **Sistema de Gerenciamento de Biblioteca** foi desenvolvido para facilitar o processo de empréstimo, devolução e gerenciamento de livros em uma biblioteca. Através da aplicação, é possível gerenciar empréstimos de livros, disponibilidade de exemplares, cadastro de usuários e gerar relatórios de atividades. O sistema visa melhorar a experiência do usuário e otimizar a administração da biblioteca, garantindo uma gestão eficiente e eficaz.
 
 ---
 
-## Funcionalidades
+## Recursos
 
-- **Monitoramento em Tempo Real**: Acompanhe o nível da bateria, status do carregamento e autonomia do veículo diretamente pelo app.
-
-- **Otimização de Carga**: Ajuste automático da potência para aproveitar horários com tarifa reduzida.
-
-- **Gestão Multi-Veículo**: Perfeito para frotas e empresas que precisam monitorar vários veículos simultaneamente.
-
-- **Integração com Wallbox e Estações Públicas**: Conecte seu carregador residencial ou encontre estações de recarga próximas.
-
-- **Relatórios e Análises**: Veja histórico de consumo, custo por carga e sugestões para reduzir gastos com energia.
-
-- **Reserva de Estações**: Agende recargas para evitar filas e otimizar sua rotina.
+- **Cadastro e gerenciamento de livros**: Informações detalhadas como título, autor, ISBN, etc.
+- **Criação e modificação de empréstimos**: Opções de data de empréstimo e devolução.
+- **Visualização da disponibilidade dos livros**: Consulta em tempo real.
+- **Geração de relatórios**: Empréstimos, devoluções e multas.
+- **Notificação de usuários**: Alertas sobre empréstimos e devoluções.
+- **Sistema de login e autenticação**: Para administradores e usuários.
 
 ---
 
 ## Tecnologias Utilizadas
-### Backend  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)  
-### Frontend  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)  
-### Banco de Dados  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)  
-### Integração  
-![API](https://img.shields.io/badge/API-Carregadores-0A66C2?style=flat-square) ![OBD-II](https://img.shields.io/badge/OBD--II-Opcional-FF0000?style=flat-square)  
+
+### Frontend
+- ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)  
+  **Angular**: Framework utilizado para o desenvolvimento da interface de usuário, permitindo uma aplicação interativa e responsiva.
+
+### Backend
+- ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)  
+  **Spring Boot (Java)**: Framework utilizado para o desenvolvimento da API, que gerencia os empréstimos, os livros e os usuários.
+
+### Banco de Dados
+- ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+  **MySQL**: Banco de dados relacional utilizado para armazenar informações sobre empréstimos, usuários e livros.
+
+### Autenticação
+- ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)  
+  **JWT (JSON Web Tokens)**: Utilizado para garantir a segurança no processo de autenticação e autorização de usuários.
 
 ---
 
-## Como Funciona?
+# Como Executar o Projeto
 
-O **ChargerLink** é um sistema inteligente que permite gerenciar e monitorar o carregamento do seu veículo elétrico de forma prática e eficiente.  
+### Pré-requisitos
+Certifique-se de ter os seguintes itens instalados:
 
-### Passo a Passo para usar o ChargerLink  
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
+  **Node.js**: Para o frontend Angular.
 
-1. **Criação da Conta**  
-   - Acesse o aplicativo ou plataforma web do **ChargerLink**.  
-   - Realize o cadastro informando seus dados pessoais e preferências.  
-   - Confirme sua conta via e-mail ou SMS.  
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
+  **Java JDK**: Para o backend Spring Boot.
 
-2. **Cadastro do Veículo**  
-   - Insira as informações do seu veículo elétrico, incluindo:  
-     - Modelo e fabricante.  
-     - Capacidade da bateria.  
-     - Tipo de conector compatível.  
-   - Caso o veículo seja compatível, a API da montadora pode preencher automaticamente alguns desses dados.  
+- ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+  **MySQL**: Para o banco de dados.
 
-3. **Conexão com o Carregador**  
-   - O **ChargerLink** permite diferentes formas de conexão:  
-     - **Via Bluetooth ou Wi-Fi**, para carregadores inteligentes compatíveis.  
-     - **Através da API da montadora**, permitindo integração com sistemas embarcados.  
-     - **Manual**, inserindo dados do carregamento caso seu equipamento não seja compatível com integração automática.  
+### Como Executar
 
-4. **Gerenciamento e Monitoramento**  
-   - Acompanhe o status do carregamento em tempo real:  
-     - Nível da bateria e tempo restante.  
-     - Consumo de energia e custo estimado.  
-     - Histórico de carregamentos realizados.  
-   - Defina preferências para otimizar o carregamento, como horários de menor custo e limites de carga para prolongar a vida útil da bateria.  
+### Passo 1: Clone o Repositório
+Clone o repositório para o seu ambiente local com o comando:
 
-5. **Recomendações Inteligentes**  
-   - O **ChargerLink** oferece sugestões para melhorar sua experiência de carregamento:  
-     - Alertas de bateria baixa e necessidade de recarga.  
-     - Indicação de horários mais econômicos para carregar.  
-     - Diagnóstico de possíveis falhas no carregamento.  
+```bash
+git clone https://github.com/usuario/sistema-biblioteca.git
+```
 
-6. **Segurança e Economia**  
-   - Acompanhe relatórios detalhados sobre sua eficiência energética.  
-   - Receba notificações caso haja alguma anomalia no carregamento.  
-   - Configure limites de carga para evitar sobrecargas ou desgastes prematuros da bateria.  
+### Passo 2: Instale as Dependências do Frontend
+Navegue até o diretório do frontend e instale as dependências com npm:
 
-Com o **ChargerLink**, você tem total controle sobre o carregamento do seu veículo elétrico, garantindo praticidade, economia e segurança!  
+```bash
+cd sistema-biblioteca/frontend
+npm install
+```
+
+### Passo 3: Instale as Dependências do Backend
+Navegue até o diretório do backend e instale as dependências com Maven:
+
+```bash
+cd sistema-biblioteca/backend
+mvn install
+```
+### Passo 4: Configuração do Banco de Dados
+Crie um banco de dados MySQL e configure as credenciais no arquivo application.properties do backend. Em seguida, execute as migrações para criar as tabelas necessárias:
+
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/biblioteca
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
+```
+
+### Passo 5: Inicie o Servidor Backend
+Inicie o servidor do backend com o comando:
+
+```bash
+mvn spring-boot:run
+```
+
+### Passo 6: Inicie o Servidor Frontend
+Inicie o servidor do frontend com o comando:
+
+```bash
+ng serve
+```
+
+### Passo 7: Acesse a Aplicação
+Abra o navegador e acesse a aplicação na URL: http://localhost:4200.
 
 ---
 
-## Instalação e Configuração  
+## Documentação da API
+A API do Sistema de Gerenciamento de Biblioteca foi documentadautilizando **Swagger**, permitindo uma visualização interativa e detalhada de todos os endpoints disponíveis. Abaixo estão alguns dos endpoints principais:
+- **GET /api/books:** Retorna todos os livros disponíveis.
+- **POST /api/loans:** Cria um novo empréstimo de livro.
+- **GET /api/loans/{id}:** Obtém os detalhes de um empréstimo específico.
+- **PUT /api/loans/{id}:** Atualiza informações de um empréstimo.
+- **DELETE /api/loans/{id}:** Cancela um empréstimo.
 
-Após adquirir o **ChargerLink**, a instalação deve ser realizada por um profissional qualificado. Para isso, siga os passos abaixo:  
-
-1. **Escolha um local autorizado** – Visite uma concessionária da montadora ou uma oficina parceira certificada para garantir a instalação correta do dispositivo.  
-2. **Agende a instalação** – Consulte a disponibilidade de técnicos especializados para realizar a instalação de forma segura e eficiente.  
-3. **Instalação profissional** – Um técnico especializado conectará o **ChargerLink** ao sistema do veículo, garantindo compatibilidade e funcionamento adequado.  
-4. **Teste e ativação** – Após a instalação, o dispositivo será testado para verificar se está operando corretamente e integrado ao veículo.  
-5. **Configuração final** – O técnico poderá auxiliar na sincronização com o aplicativo ou sistema do veículo para que você tenha acesso a todas as funcionalidades.  
+Para acessar a documentação completa da API no Swagger, inicie o servidor backend e acesse:
+```bash
+http://localhost:8080/swagger-ui.html
+```
 
 ---
 
-## Contribuição
+## Contribuindo
+**1.** Faça um fork do repositório.  
+**2.** Crie uma nova branch (`git checkout -b feature-nome-da-feature`).  
+**3.** Faça as alterações e commit (`git commit -am 'Adiciona nova feature'`).  
+**4.** Envie para o repositório original (`git push origin feature-nome-da-feature`).  
+**5.** Abra um pull request descrevendo as mudanças feitas.
 
-Desenvolvido por:
-- [Eduardo Vizoni do Prado](https://github.com/EduardoVizoni)
-- [Nathan João Lima](https://github.com/nathanjoao)
-- [Rafael Henrique da Rora](https://github.com/RafaelHR12)
+## Licença
+
+Este projeto está licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
 ## Contato
-📧 E-mail: charger@empresa.com  
-🌎 Site: [www.charger.com](https://www.charger.com)  
-📍 Endereço: Rua Exemplo, 123 - Cidade, País  
-📱 Telefone: +55 (XX) XXXXX-XXXX  
 
----
+Se você tiver alguma dúvida ou sugestão, entre em contato com a equipe de desenvolvimento:
 
-## Licença
-
-Copyright © 1976 Charger. Todos os direitos reservados.  
-Este projeto é propriedade da Charger e não pode ser copiado, modificado, distribuído ou utilizado sem permissão prévia.
-
-
+- **Email**: vizoni.prado@gmail.com  
+- **Telefone**: +55 55 5555-5555 
