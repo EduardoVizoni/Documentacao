@@ -1,6 +1,6 @@
-# Falsos Readmes 🎭
+# Documentacao 🎭
 
-Bem-vindo ao repositório **Falsos Readmes**! Este é um espaço dedicado exclusivamente para praticar a criação de documentação de projetos fictícios. Aqui, a criatividade é o limite, e os projetos são inventados apenas para treinar habilidades de escrita e organização de `READMEs`.
+Bem-vindo ao repositório **Documentacao**! Este é um espaço dedicado exclusivamente para praticar a criação de documentação de projetos fictícios. Aqui, a criatividade é o limite, e os projetos são inventados apenas para treinar habilidades de escrita e organização de `READMEs`.
 
 ## Objetivo 🎯
 
