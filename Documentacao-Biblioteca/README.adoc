@@ -17,10 +17,7 @@
 == Sobre o Projeto
 O **Sistema de Gerenciamento de Biblioteca** foi desenvolvido para facilitar o processo de empréstimo, devolução e gerenciamento de livros em uma biblioteca. Através da aplicação, é possível gerenciar empréstimos de livros, disponibilidade de exemplares, cadastro de usuários e gerar relatórios de atividades. O sistema visa melhorar a experiência do usuário e otimizar a administração da biblioteca, garantindo uma gestão eficiente e eficaz.
 
----
-
 == Recursos
-
 - **Cadastro e gerenciamento de livros**: Informações detalhadas como título, autor, ISBN, etc.
 - **Criação e modificação de empréstimos**: Opções de data de empréstimo e devolução.
 - **Visualização da disponibilidade dos livros**: Consulta em tempo real.
@@ -28,40 +25,36 @@ O **Sistema de Gerenciamento de Biblioteca** foi desenvolvido para facilitar o p
 - **Notificação de usuários**: Alertas sobre empréstimos e devoluções.
 - **Sistema de login e autenticação**: Para administradores e usuários.
 
----
+== TECNOLOGIAS UTILIZADAS
 
-== Tecnologias Utilizadas
-
-=== Frontend
-image:https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white[Angular]
+=== FRONTEND
+image:https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white[Angular,link=https://angular.io]
 **Angular**: Framework utilizado para o desenvolvimento da interface de usuário, permitindo uma aplicação interativa e responsiva.
 
-=== Backend
-image:https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white[Spring Boot]
+=== BACKEND
+image:https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white[Spring Boot,link=https://spring.io/projects/spring-boot]
 **Spring Boot (Java)**: Framework utilizado para o desenvolvimento da API, que gerencia os empréstimos, os livros e os usuários.
 
-=== Banco de Dados
-image:https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white[MySQL]
+=== BANCO DE DADOS
+image:https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white[MySQL,link=https://www.mysql.com]
 **MySQL**: Banco de dados relacional utilizado para armazenar informações sobre empréstimos, usuários e livros.
 
-=== Autenticação
-image:https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white[JWT]
+=== AUTENTICAÇÃO
+image:https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white[JWT,link=https://jwt.io]
 **JWT (JSON Web Tokens)**: Utilizado para garantir a segurança no processo de autenticação e autorização de usuários.
-
----
 
 == Como Executar o Projeto
 
 === Pré-requisitos
 Certifique-se de ter os seguintes itens instalados:
 
-image:https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white[Node.js]
+image:https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white[Node.js,link=https://nodejs.org]
 **Node.js**: Para o frontend Angular.
 
-image:https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white[Java]
+image:https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white[Java,link=https://www.java.com]
 **Java JDK**: Para o backend Spring Boot.
 
-image:https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white[MySQL]
+image:https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white[MySQL,link=https://www.mysql.com]
 **MySQL**: Para o banco de dados.
 
 === Passo a Passo
@@ -139,19 +132,15 @@ Para acessar a documentação completa da API no Swagger, inicie o servidor back
 http://localhost:8080/swagger-ui.html
 ----
 
----
-
 == Contribuindo
-**1.** Faça um fork do repositório.  
-**2.** Crie uma nova branch (`git checkout -b feature-nome-da-feature`).  
-**3.** Faça as alterações e commit (`git commit -am 'Adiciona nova feature'`).  
-**4.** Envie para o repositório original (`git push origin feature-nome-da-feature`).  
-**5.** Abra um pull request descrevendo as mudanças feitas.
+. Faça um fork do repositório.
+. Crie uma nova branch (`git checkout -b feature-nome-da-feature`).
+. Faça as alterações e commit (`git commit -am 'Adiciona nova feature'`).
+. Envie para o repositório original (`git push origin feature-nome-da-feature`).
+. Abra um pull request descrevendo as mudanças feitas.
 
 == Licença
 Este projeto está licenciado sob a **Licença MIT** - veja o arquivo link:LICENSE[LICENSE] para mais detalhes.
-
----
 
 == Contato
 Se você tiver alguma dúvida ou sugestão, entre em contato com a equipe de desenvolvimento:
